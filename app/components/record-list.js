@@ -10,7 +10,7 @@ export default async function RecordList({ records }) {
     // }, [])
 
 
-    console.log('records:', records)
+    // console.log('records:', records)
     return (
         <div className="record-list mx-8 grid gap-[3%] grid-cols-5">
             {records.map(record => (
